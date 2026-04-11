@@ -1,26 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>text-style</title>
     <style>
-        .video-title {
-            font-family: Arial;
-            font-size: 18px;
-            font-weight: bold;
-            text-align: left;
-            width: 300px;
-            line-height: 24px;
-        }
+      p {
+        font-family: Arial;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .video-title {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        width: 280px;
+        line-height: 24px;
+        margin-bottom: 5px;
+      }
+      .video-stats {
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        margin-bottom: 15px;
+      }
+      .video-author {
+        color: rgb(96, 96, 96);
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+      .video-description {
+        width: 280px;
+        color: rgb(96, 96, 96);
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 60px;
+      }
+      .apple-text {
+        background-color: rgb(277, 65, 64);
+        color: white;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 100px;
+        font-size: 14px;
+      }
+      .shop-link {
+        cursor: pointer;
+      }
+
+      .shop-link:hover {
+        text-decoration: underline;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <p class="video-title">
-        Talking Tech and AI with Google CEO Sundar Pichai!
+      Talking Tech and AI with Google CEO Sundar Pichai!
     </p>
-    <p>
-        
+    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+    <p class="video-author">Marques Brownlee &#10003;</p>
+    <p class="video-description">
+      Talking tech and AI on the heels of Google I/O. Also a daily driver phone
+      reveal from Google's CEO. Shoutout to Sundar!
     </p>
-</body>
+    <p class="apple-text">
+      Shop early for the best selection of holiday favourites.
+      <span class="shop-link">Shop now &#62;</span>
+    </p>
+  </body>
 </html>
