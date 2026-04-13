@@ -1,0 +1,23 @@
+img {
+    width: 200px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 20px;
+    object-fit: cover;
+}
+.username {
+    font-weight: bold;    
+}
+p {
+    font-size: 40px;
+}
+em {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+strong {
+    color: orange;
+    font-style: italic;
+    font-weight: bold;
+}
