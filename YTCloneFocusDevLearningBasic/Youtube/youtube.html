@@ -4,11 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YouTube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <style>
+        .p {
+        display:block;
+        font-family: Roboto, Arial;
+        }
       .video-preview {
         width: 300px;
         display: inline-block;
-        margin-right: 10px;
+        margin-right: 20px;
         text-align: left;
         vertical-align:top;
       }
@@ -16,18 +24,29 @@
         width: 300px;
         display: block;
       }
+      .video-title {
+        margin-top:0px;
+      }
       .search-bar {
         display: block;
         margin-bottom: 20px;
       }
-      .video-title {
-        width: 300px;
-      }
-      .p {
-        display:block;
-      }
+    
       .profile-picture {
-        display:block;
+        width:40px;
+        border-radius:50px;
+      }
+      .channel-picture {
+        display: inline-block;
+        vertical-align:top;
+        width:50px;
+      }
+      .video-info {
+        display: inline-block;
+        width:200px;
+      }
+      .thumbnail-row {
+        margin-bottom:12px;
       }
     </style>
   </head>
@@ -35,7 +54,7 @@
     <input class="search-bar" type="text" placeholder="Search" />
 
     <div class="video-preview">
-      <div>
+      <div class="thumbnail-row">
         <img class="thumbnail" src="../thumbnails/thumbnail-1.webp" />
       </div>
       <div>
